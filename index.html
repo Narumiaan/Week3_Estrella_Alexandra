@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #8dbfe0;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+        }
+
+      .navbar {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+             overflow: hidden;
+             background-color: #65a7bb;
+}
+
+      .navbar a {
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            font-weight:bold;
+            text-decoration: none;
+}
+
+      .dropdown {
+            overflow: hidden;
+}
+
+      .dropdown .dropbtn {
+            font-weight: bold;
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: rgb(255, 255, 255);
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+             margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #a0d0d8;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #1a9cb3;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #a0d0d8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+        section {
+            padding: 20px;
+            color: #526880;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #8dbfe0;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Estrella, Alexandra Jose B.</h1>
+        <p>BS Information Technology-MAA</p>
+    </header>
+    
+    <div class="navbar">
+  <a href="#about">About Me</a>
+  <a href="#hobbies">Hobbies</a>
+  <a href="#websites">Favorite Websites</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Interests
+
+    </button>
+    <div class="dropdown-content">
+      <a href="music.html">Music</a>
+      <a href="shows.html">Shows</a>
+    </div>
+  </div> 
+</div>
+
+   
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="cinna.png">
+        <p>Hello! I'm Alexa and I am a 2nd year student at NU Manila. I Love to consume art medias such as animation and games the most.
+         I aspire to be a concept designer for a show or a game.
+         I like to draw my favorite characters and post them on social media to show my support for the shows I love so much. I love the Color Blue,
+        Because it reminds me of the sky, which brings me a sense of calmness.</p>
+    </section> 
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Playing games</li>
+            <li>Watching movies and shows</li>
+            <li>Drawing</li>
+            <li>Roller Skating</li>
+        </ul>
+    </section>
+
+    <section id="websites">
+        <h2>Favorite Websites</h2>
+        <ol>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube -- where I mostly spend my time on. </a></li>
+            <li><a href="https://www.numuki.com" target="_blank">Numuki -- online game website like y8.</a></li>
+            <li><a href=https://www.instagram.com target="_blank">Instagram -- where me and my friend's share photos. holds a lot of memories.</a></li>
+        </ol>
+    </section>
+
+    <section id="#interests">
+        <h2>My Interests!</h2>
+        <p>My interests are in the following links that will lead you to a seperate page depending on the interest you want to learn more about me!</p>
+        <p>Simply click the links or hover the interest text in the navigation bar to get you to another page!</p>
+        <ol>
+            <li><a href="music.html">My Music Interests</a> </li>
+            <li><a href="shows.html">My Favorite Shows and Movies</a></li>
+        </ol>
+
+    </section>
+
+   
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: estrellaab@students.national-u.edu.ph</p>
+        <p>Phone: 09XXXXXXXXX</p>
+    </section>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
